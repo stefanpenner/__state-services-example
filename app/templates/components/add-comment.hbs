@@ -1,0 +1,7 @@
+<textarea value={{data.firstComment}}
+          oninput={{action (mut data.firstComment) value="target.value"}}></textarea>
+
+<textarea value={{data.secondComment}}
+          oninput={{action (mut data.secondComment) value="target.value"}}></textarea>
+
+{{yield}}

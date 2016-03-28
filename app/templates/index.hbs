@@ -1,0 +1,8 @@
+<ul>
+{{#each model as |pull|}}
+  <li>
+    {{pull.name}}
+    {{add-comment pull=pull}}
+  </li>
+{{/each}}
+</ul>
